@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+     <link rel="stylesheet" href="nav style.css">
+     <!-- for link to link --> -->
+    <style>
+        label{
+            display:block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p> for link to link nav</p>
+    <nav>
+        <ul>
+            <li><a href="form.html"> table</a></li>
+            <li><a href="audio-vedio.html">form </a></li>
+            <li><a href="table.html">audio</a></li>
+        </ul>
+    </nav>
+    <h2>
+        welcome to pitha ghor
+    </h2>
+    <form>
+        <label for="name"> your name
+        <input type="text" placeholder=" y name" id="name"></label>
+        <label for="email"> write your email
+        <input id="email" type="email" placeholder="your email">
+        </label>
+        <fieldset>
+            <legend> pick one pitha</legend>
+            <label for="circle">
+            <input id="circle" type="radio" name="pitha">vapa</label>
+            <label for="gol"></label>
+            <input id="gol" type="radio" name="pitha">chitoi
+            <fieldset>
+                <legend>select more than one
+                </legend>
+                
+                <label for="sorisha">
+                    <input type="checkbox" name="vorta" id="sorisha">sorisha
+                </label>
+                <label for="shutki">
+                    <input type="checkbox" name="vorta" id="shutki">shutki
+                </label>
+            </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>instuction</legend>
+            <textarea name="tex" id="textarea" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+
+    </form>
+</body>
+</html>
